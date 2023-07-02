@@ -30,12 +30,11 @@ while True:
     if вопрос in 'покой':
         print("Выполняю протокол покой!")
         wb.open('https://www.youtube.com/watch?v=XO2JfS0bwiU', new=2)
+        import рабочий_стол 
+        
     if вопрос in 'перцептрон':
         from ii import chat
     if вопрос in 'новости':
-        from новости import get_news
-        x = get_news()
-        print(x)
-        
-
-      
+        print("Достою информацию!")
+        from новости import свежие_ноавости
+        print(свежие_ноавости())
